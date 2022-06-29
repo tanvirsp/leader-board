@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin:  auto;
+}
+
+.section-bg {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 45px auto;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    font-size: 35px;
+    color:blue;
+    padding: 15px 0;
+}
+
+.palyer-name {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+
+header {
+    background-color: blue;
+    padding: 15px 0;
+}
+
+.logo {
+    width: 65px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.humbarger {
+    display: none;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 85px;
+}
+
+
+.all-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+    padding: 35px 0;
+    border-bottom: 2px solid lightgray;
+}
+
+/* 
+***********************
+blog section 
+********************
+*/
+
+.all-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+}
+
+.blog img {
+    width: 40%;
+    margin-right: 25px;
+}
+
+.blog-title {
+    color: black;
+    font-size: 28px;
+    line-height: 40px ;
+    margin-bottom: 15px;
+}
+
+.author {
+    color: blue;
+    font-size: 20px;
+}
+
+.author span {
+    color: gray
+}
+
+.title {
+    padding: 45px 0;
+   
+}
